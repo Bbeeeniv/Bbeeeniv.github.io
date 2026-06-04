@@ -2,13 +2,11 @@
 repository: Bbeeeniv/Bbeeeniv.github.io
 # Content configuration version
 version: 2
-
 # -----------------------------------------------------------------------------
 # 站点核心配置 (Site Settings)
 # -----------------------------------------------------------------------------
 title: "佟欣樾 | AI产品运营 & 产品经理 | 个人作品集"
 description: "聚焦 AI 情感陪伴赛道，具备大模型体验分析与深厚用户研究功底的 AI 产品运营。"
-theme: jekyll-theme-modern-resume
 
 # -----------------------------------------------------------------------------
 # 个人基础信息 (Personal Information)
@@ -87,7 +85,7 @@ content:
           
           ![星尘积分系统UI交互示意](/stardust-ui.png)
           
-          - **长效留存机制设计**：重构用户留存路径，策划“情绪日历与 AI 专属手写信\"高价值召回机制；设计高审美“星尘”积分养成体系，成功将低频占卜转化为高频陪伴。
+          - **长效留存机制设计**：重构用户留存路径，策划“情绪日历与 AI 专属手写信”高价值召回机制；设计高审美“星尘”积分养成体系，成功将低频占卜转化为高频陪伴。
           
           ![情绪日历与AI手写信体验](/emotion-calendar.png)
 
@@ -128,3 +126,23 @@ content:
 
 # Footer
 footer_show_references: false
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
