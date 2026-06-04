@@ -31,9 +31,23 @@ about_profile_image: assets/images/profile.jpg
 about_content: |
   #### 🔍 个人简介
   我是**佟欣樾**，华南师范大学硕士。我拥有**社工专业本硕背景**与 **AI 产品运营**的跨界视角。我擅长从社会心理学与用户行为学视角精准洞察年轻一代的“情绪价值”诉求，并具备扎实的大模型应用拆解功底与数据复盘能力。
-
   如果你正在寻找一位懂技术底层逻辑、长于用户研究且能自驱产出深度洞察的 AI 产品运营，欢迎随时通过邮件与我联系！
 
+- title: 教育背景 (Education)
+    layout: list
+    content:
+      - layout: top-right
+        title: 华南师范大学 (211)
+        sub_title: 硕士 | 社会工作专业
+        caption: 2025.09 - 2027.06
+        description: |
+          聚焦社会心理学、用户行为学与质性研究，致力于将深厚的底层人群心理洞察完美转化为大模型时代 AI 情感陪伴应用的核心情绪价值挖掘。
+      - layout: top-right
+        title: 长春理工大学
+        sub_title: 本科 | 社会工作专业
+        caption: 2020.09 - 2024.06
+        description: |
+          建立扎实的定量与定性研究方法论，培养了严谨的数据敏感度（SPSS/Excel）与底层需求洞察基本功。
 content:
   - title: 核心作品集 (Projects)
     layout: list
@@ -41,6 +55,8 @@ content:
       - layout: left
         border: weak
         title: AI 占卜陪伴产品 Quin 产品策略深度分析
+        link: /佟欣樾丨产品运营丨个人产品分析作品 (3).pdf
+        link_text: "📄 点击此处：在线浏览完整版产品优化分析作品集（含详细数据图表与交互图）"
         caption: 2026.04 - 至今
         quote: >
           一款基于 LLM 驱动的沉浸式 AI 塔罗心理陪伴应用，致力于在高压环境下为年轻人提供低成本的数字心理疗愈。
@@ -77,21 +93,6 @@ content:
           - **内容产出与资源对接**：负责对外宣传和学校、机构等多方资源的无缝对接；基于调研结果主导撰写并成功落地《性教育宣传手册》。
           - **项目成果**：精准服务儿童及家长 30 人，显著提升干预后性教育认知水平；项目最终荣获**校级“社工实务大赛”二等奖**。
 
-  - title: 教育背景 (Education)
-    layout: list
-    content:
-      - layout: top-right
-        title: 华南师范大学 (211)
-        sub_title: 硕士 | 社会工作专业
-        caption: 2025.09 - 2027.06
-        description: |
-          聚焦社会心理学、用户行为学与质性研究，致力于将深厚的底层人群心理洞察完美转化为大模型时代 AI 情感陪伴应用的核心情绪价值挖掘。
-      - layout: top-right
-        title: 长春理工大学
-        sub_title: 本科 | 社会工作专业
-        caption: 2020.09 - 2024.06
-        description: |
-          建立扎实的定量与定性研究方法论，培养了严谨的数据敏感度（SPSS/Excel）与底层需求洞察基本功。
 
   - title: 专业技能树 (Skills)
     layout: text
