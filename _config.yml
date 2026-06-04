@@ -75,7 +75,7 @@ content:
         title: "AI 占卜陪伴产品 Quin 产品策略深度分析"
         caption: "2026.04 - 至今"
         # 第五项修改：将 PDF 的相对路径升级为绝对网址，消除因路径解析引起的打不开问题
-        link: "https://bbeeeniv.github.io/Quin-Portfolio.pdf"
+        link: "https://bbeeeniv.github.io/Quin-Portfolio.pdf.pdf"
         link_text: "📄 点击此处：在线浏览/下载完整版高颜值附件作品集（含详细市场数据与全量策略矩阵）"
         # 第四项修改：使用内联样式，将原本暗淡的小字简介转化为适合白底的高清金黄色
         quote: >
