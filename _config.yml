@@ -3,18 +3,33 @@ repository: Bbeeeniv/Bbeeeniv.github.io
 # Content configuration version
 version: 2
 
-# Personal info
-name: 佟欣樾
-title: AI产品运营实习
-email: gnot829@163.com
-# email_title: Email (Email title override)
-phone:18443549177
-# phone_title: Phone (Phone title override)
-website: bbeeeniv.github.io
-# website_title: Web (Website title override)
+# -----------------------------------------------------------------------------
+# 站点核心配置 (Site Settings)
+# -----------------------------------------------------------------------------
+title: "佟欣樾 | AI产品运营 & 产品经理 | 个人作品集"
+description: "聚焦 AI 情感陪伴赛道，具备大模型体验分析与深厚用户研究功底的 AI 产品运营。"
+theme: jekyll-theme-modern-resume
 
-# Dark Mode (true/false/never)
-darkmode: false
+# -----------------------------------------------------------------------------
+# 个人基础信息 (Personal Information)
+# -----------------------------------------------------------------------------
+name: "佟欣樾"
+title: "AI产品运营 / AI产品经理"
+email: "gnot829@163.com"
+phone: "18443549177"
+website: "bbeeeniv.github.io"
+
+# 个人简介 (About Me)
+bio: |
+  我是佟欣樾，华南师范大学硕士。我具备敏锐的 AI 产品运营视角与深度竞品分析能力，曾独立开展 AI 占卜陪伴应用 Quin 的全链路拆解。
+  得益于社会工作专业的学术背景，我擅长从社会心理学与用户行为学视角洞察年轻一代的“情绪价值”诉求，并具备扎实的数据复盘能力（自媒体个人账号累计总曝光 50.6w）与严谨的用户研究实操经验。
+
+# -----------------------------------------------------------------------------
+# 核心设置
+# -----------------------------------------------------------------------------
+repository: Bbeeeniv/Bbeeeniv.github.io
+version: 2
+darkmode: true
 
 # Social links
 github_username: Bbeeeniv
@@ -22,54 +37,54 @@ linkedin_username: ""
 
 # Additional icon links
 additional_links:
-  - title: 电子邮箱
-    icon: fas fa-envelope
-    url: mailto:gnot829@163.com
+  - title: "电子邮箱"
+    icon: "fas fa-envelope"
+    url: "mailto:gnot829@163.com"
 
 # About Section
-about_profile_image: assets/images/profile.jpg
+about_profile_image: "assets/images/profile.jpg"
 about_content: |
   #### 🔍 个人简介
   我是**佟欣樾**，华南师范大学硕士。我拥有**社工专业本硕背景**与 **AI 产品运营**的跨界视角。我擅长从社会心理学与用户行为学视角精准洞察年轻一代的“情绪价值”诉求，并具备扎实的大模型应用拆解功底与数据复盘能力。
+
   如果你正在寻找一位懂技术底层逻辑、长于用户研究且能自驱产出深度洞察的 AI 产品运营，欢迎随时通过邮件与我联系！
 
-- title: 教育背景 (Education)
+content:
+  - title: "教育背景 (Education)"
     layout: list
     content:
       - layout: top-right
-        title: 华南师范大学 (211)
-        sub_title: 硕士 | 社会工作专业
-        caption: 2025.09 - 2027.06
+        title: "华南师范大学 (211)"
+        sub_title: "硕士 | 社会工作专业"
+        caption: "2025.09 - 2027.06"
         description: |
           聚焦社会心理学、用户行为学与质性研究，致力于将深厚的底层人群心理洞察完美转化为大模型时代 AI 情感陪伴应用的核心情绪价值挖掘。
       - layout: top-right
-        title: 长春理工大学
-        sub_title: 本科 | 社会工作专业
-        caption: 2020.09 - 2024.06
+        title: "长春理工大学"
+        sub_title: "本科 | 社会工作专业"
+        caption: "2020.09 - 2024.06"
         description: |
           建立扎实的定量与定性研究方法论，培养了严谨的数据敏感度（SPSS/Excel）与底层需求洞察基本功。
-content:
-  - title: 核心作品集 (Projects)
+
+  - title: "核心作品集 (Projects)"
     layout: list
     content:
       - layout: left
         border: weak
-        title: AI 占卜陪伴产品 Quin 产品策略深度分析
-        link: /佟欣樾丨产品运营丨个人产品分析作品 (3).pdf
-        link_text: "📄 点击此处：在线浏览完整版产品优化分析作品集（含详细数据图表与交互图）"
-        caption: 2026.04 - 至今
+        title: "AI 占卜陪伴产品 Quin 产品策略深度分析"
+        caption: "2026.04 - 至今"
         quote: >
           一款基于 LLM 驱动的沉浸式 AI 塔罗心理陪伴应用，致力于在高压环境下为年轻人提供低成本的数字心理疗愈。
         description: |
           针对全球超百万用户规模的头部 AI 情感陪伴应用进行独立全链路拆解：
           - **核心痛点识别**：深入泛心理疗愈与 AI 交互交叉赛道，通过社媒及访谈精准提炼 Z 世代核心诉求。
           - **商业化体验重构**：针对原有付费墙割裂体验的痛点，创新性提出“情绪保护柔性付费墙”（自动识别焦虑词并降级付费墙）与“后悔药机制”，完美平衡变现与信任。
-          - **长效留存机制设计**：重构用户留存路径，策划“情绪日历与 AI 专属手写信”高价值召回机制；构建高审美“星尘”积分养成体系，成功将低频占卜转化为高频陪伴。
+          - **长效留存机制设计**：重构用户留存路径，策划“情绪日历与 AI 专属手写信”高价值召回机制；设计高审美“星尘”积分养成体系，成功将低频占卜转化为高频陪伴。
 
       - layout: left
         border: weak
-        title: 小红书个人自媒体账号从 0 到 1 全链路运营
-        caption: 2026.02 - 至今
+        title: "小红书个人自媒体账号从 0 到 1 全链路运营"
+        caption: "2026.02 - 至今"
         quote: >
           打造“INTP × 社会工作研究生”特色人设，聚焦人格解析、情感引导与自我成长。
         description: |
@@ -78,13 +93,13 @@ content:
           - **数据驱动策略迭代**：实时追踪曝光量、点击率、首页推荐占比等核心数据看板，通过严谨的数据复盘敏锐调整内容方向。
           - **项目成果**：账号帖子累计总曝光量突破 **50.6w**，单篇最高浏览量 **3.2w**，获赞与收藏近 **7.1k**；通过持续优化，成功将**首页推荐占比从 37% 飙升至 84%**。
 
-  - title: 项目与实践经历 (Experience)
+  - title: "项目与实践经历 (Experience)"
     layout: list
     content:
       - layout: right
-        title: “守护太阳花”儿童性教育公益干预项目
-        sub_title: 项目负责人 / 宣传资源对接
-        caption: 2022.06 - 2023.06
+        title: "“守护太阳花”儿童性教育公益干预项目"
+        sub_title: "项目负责人 / 宣传资源对接"
+        caption: "2022.06 - 2023.06"
         quote: >
           针对城郊与农村地区儿童性教育资源匮乏现状发起的身心健康干预项目。
         description: |
@@ -93,8 +108,7 @@ content:
           - **内容产出与资源对接**：负责对外宣传和学校、机构等多方资源的无缝对接；基于调研结果主导撰写并成功落地《性教育宣传手册》。
           - **项目成果**：精准服务儿童及家长 30 人，显著提升干预后性教育认知水平；项目最终荣获**校级“社工实务大赛”二等奖**。
 
-
-  - title: 专业技能树 (Skills)
+  - title: "专业技能树 (Skills)"
     layout: text
     content: |
       - **AI 工具与大模型认知**：熟练使用 ChatGPT、DeepSeek、豆包等主流大模型；具备 AI 原生应用全链路体验分析与策略解构能力。
